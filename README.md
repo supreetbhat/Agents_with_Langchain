@@ -9,7 +9,7 @@ Based on the [LangChain Academy – LangChain Foundations](https://github.com/la
 | Folder | Topic | Status |
 | --- | --- | --- |
 | [01-langchain-foundations](./01-langchain-foundations) | LangChain foundations: models, prompting, tools, web search, memory, multimodal messages, and a personal chef agent | ✅ Done |
-| `02-…` (planned) | MCP, runtime context, state, multi-agent | 🚧 Coming soon |
+| [02-mcp-state-multi-agent](./02-mcp-state-multi-agent) | MCP, runtime context, state, multi-agent systems, plus RAG and SQL bonus labs | ✅ Done |
 | `03-…` (planned) | Message management, human-in-the-loop, dynamic models/prompts/tools, email agent | 🚧 Coming soon |
 
 ## 01-langchain-foundations
@@ -23,6 +23,19 @@ Based on the [LangChain Academy – LangChain Foundations](https://github.com/la
 | `1.3_memory.ipynb` | Short-term memory with checkpointers |
 | `1.4_multimodal_messages.ipynb` | Sending images to the model |
 | `1.5_personal_chef.ipynb` / `.py` | Mini project: a chef agent that searches the web for recipes |
+
+## 02-mcp-state-multi-agent
+
+| Notebook | What it covers |
+| --- | --- |
+| `2.1_mcp.ipynb` / `2.1_travel_agent.ipynb` | Using local and online MCP servers as agent tools |
+| `2.2_runtime_context.ipynb` | Passing runtime context to tools |
+| `2.2_state.ipynb` | Reading and writing custom agent state |
+| `2.3_multi_agent.ipynb` | Subagents called as tools |
+| `2.4_wedding_planners.ipynb` | Mini project: multi-agent wedding planner |
+| `bonus_rag.ipynb` / `bonus_sql.ipynb` | RAG over a PDF and a SQL agent on Chinook |
+
+See the [module README](./02-mcp-state-multi-agent/README.md) for details.
 
 ## Setup
 
@@ -49,8 +62,8 @@ uv run langgraph dev
 
 ## Roadmap
 
-- [ ] Next up: MCP, runtime context, state, multi-agent
-- [ ] After that: human-in-the-loop, dynamic models/prompts/tools, email agent
+- [x] MCP, runtime context, state, multi-agent
+- [ ] Next up: human-in-the-loop, dynamic models/prompts/tools, email agent
 - [ ] More agent projects of my own
 
 ## Credits
