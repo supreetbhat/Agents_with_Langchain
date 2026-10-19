@@ -1,4 +1,4 @@
-# Agents 🤖
+# Agents 
 
 > **I'm learning, and this repo will grow.** It's my personal notebook for building AI agents with [LangChain](https://python.langchain.com) and [LangGraph](https://langchain-ai.github.io/langgraph/). Expect rough edges, experiments, and new folders over time.
 
