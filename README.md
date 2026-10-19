@@ -10,7 +10,7 @@ Based on the [LangChain Academy – LangChain Foundations](https://github.com/la
 | --- | --- | --- |
 | [01-langchain-foundations](./01-langchain-foundations) | LangChain foundations: models, prompting, tools, web search, memory, multimodal messages, and a personal chef agent | ✅ Done |
 | [02-mcp-state-multi-agent](./02-mcp-state-multi-agent) | MCP, runtime context, state, multi-agent systems, plus RAG and SQL bonus labs | ✅ Done |
-| `03-…` (planned) | Message management, human-in-the-loop, dynamic models/prompts/tools, email agent | 🚧 Coming soon |
+| [03-memory-hitl-dynamic-agents](./03-memory-hitl-dynamic-agents) | Message management, human-in-the-loop, dynamic models/prompts/tools, and an email agent | ✅ Done |
 
 ## 01-langchain-foundations
 
@@ -36,6 +36,17 @@ Based on the [LangChain Academy – LangChain Foundations](https://github.com/la
 | `bonus_rag.ipynb` / `bonus_sql.ipynb` | RAG over a PDF and a SQL agent on Chinook |
 
 See the [module README](./02-mcp-state-multi-agent/README.md) for details.
+
+## 03-memory-hitl-dynamic-agents
+
+| Notebook | What it covers |
+| --- | --- |
+| `3.2_managing_messages.ipynb` | Summarizing and trimming messages |
+| `3.3_hitl.ipynb` | Approving, rejecting and editing tool calls |
+| `3.4_dynamic_models.ipynb` / `_prompts` / `_tools` | Changing model, prompt and tools at runtime |
+| `3.5_email_agent.ipynb` / `.py` | Mini project: email agent with login, dynamic tools and approval; served with `langgraph dev` and `agent-chat-ui/` |
+
+See the [module README](./03-memory-hitl-dynamic-agents/README.md) for details.
 
 ## Setup
 
@@ -63,7 +74,7 @@ uv run langgraph dev
 ## Roadmap
 
 - [x] MCP, runtime context, state, multi-agent
-- [ ] Next up: human-in-the-loop, dynamic models/prompts/tools, email agent
+- [x] Message management, human-in-the-loop, dynamic models/prompts/tools, email agent
 - [ ] More agent projects of my own
 
 ## Credits
